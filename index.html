@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tribute Website</title>
+    <!-- bootstrap cdn online -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+    <!-- for locally downloaded bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            letter-spacing: 1.5px;
+        }
+        h5{
+            background-color: rgb(62, 113, 222);
+            color: white;
+            border-radius: 10px;
+            margin-top: 25px;
+        }
+
+        .col-3{
+            border-radius: 10px;
+
+        }
+        nav a:hover{
+           transition: 0.4s ease;
+       }
+    </style>
+
+</head>
+
+<body class="bg-dark">
+    <div class="container bg-light">
+        <header class="bg bg-secondary">
+            <h1 class="text-center fw-bold text-primary py-4">Alberto Contador</h1>
+            <h3 class="text-center pb-2">El Pistolero</h3>
+            <blockquote class="bg-white p-4 rounded border border-dark">
+                <q>
+                    The most important thing is motivation -- this is what you need to achieve this double. If I win
+                    just another grand tour
+                    it’s not going to change my career but if I achieve the double this is something people are going to
+                    remember, I take a
+                    lot of motivation from this.
+                </q> – Alberto Contador
+            </blockquote>
+            <nav class="px-3  mb-2">
+                <div class="navbar navbar-nav">
+                    <div class="container-fluid justify-content-center ">
+                        <a class="nav-link btn btn-info text-center p-2" href="#theBio">Biography</a>
+                        <a class="nav-link btn btn-info text-center p-2" href="#achievements">Achievements</a>
+                        <a class="nav-link btn btn-info text-center p-2" href="#Allwins">Major Results</a>
+                    </div>
+                </div>
+            </nav>
+            <figure class="media">
+                <img class="w-100" title="Contador celebrating after stage victory" width="100%" src="Alberto contador.jpeg"
+                    alt="header image here" />
+            </figure>
+        </header>
+        <main>
+            <section class="mx-2 biosect">
+                <h2 class="text-center" id="theBio">Biography</h2>
+                <p>
+                    <a href="https://en.wikipedia.org/wiki/Alberto_Contador" target="_blank">Alberto Contador
+                        Velasco</a> (born <time>6<sup>th</sup>
+                        December 1982</time>) is a Spanish former professional cyclist.
+                    He is one of the most successful riders of his era, winning the Tour de France twice <b>(2007,
+                        2009)</b>,
+                    the Giro d'Italia twice <b>(2008, 2015)</b>, and the Vuelta a España three times <b>(2008, 2012,
+                        2014)</b>. He is
+                    one of
+                    only seven riders to have won all three Grand Tours of cycling, and one of only two riders to have
+                    won all three
+                    more
+                    than once. He has also won the Vélo d'Or a record 4 times.<br>
+
+                    He was regarded as the natural successor of <a href="https://en.wikipedia.org/wiki/Lance_Armstrong"
+                        target="_blank">Lance Armstrong</a> and won the 2007 Tour de France with the Discovery
+                    Channel team. During his time at the Astana team, he won the 2008 Giro d'Italia,
+                    the 2008 Vuelta a España and the 2009 Tour de France. Between 2007 and 2011 he won six consecutive
+                    <a href="https://en.wikipedia.org/wiki/Grand_Tour_(cycling)" target="_blank">Grand Tours</a> that he
+                    entered.
+                    This included winning the 2010 Tour de France with Astana, although it later emerged that he had
+                    tested positive for
+                    <a href="https://en.wikipedia.org/wiki/Clenbuterol" target="_blank">clenbuterol</a> during the race.
+                    After along battle in court, he was suspended by the Court of Arbitration for Sport and stripped of
+                    his 2010 Tour
+                    and 2011 Giro wins.<br>
+
+                    Contador was known as an attacking rider who excelled as a <a
+                        href="https://en.wikipedia.org/wiki/Climbing_specialist" target="_blank">climber</a></a>, and on
+                    his best days
+                    was also an excellent
+                    <a href="https://en.wikipedia.org/wiki/Time_trialist" target="_blank">time-trialist</a>. He was also
+                    known for being
+                    able to turn races around to his favour, most notably during the Fuente
+                    Dé
+                    stage at the 2012 Vuelta a España. Following his return from suspension, he won the Vuelta twice and
+                    the Giro once
+                    more.
+                    On the penultimate day of his career, he won a stage victory at the mountaintop finish of the <a
+                        href="https://en.wikipedia.org/wiki/Alto_de_l%27Angliru" target="_blank">Alto de l'Angliru</a>.
+                </p>
+            </section>
+            <h2 class="text-center" id="achievements">Achievements</h2>
+            <h3 class="text-center">Major Grand Tours</h3>
+            <section class="container d-flex rows rows-cols-4">
+                <div class="row justify-content-center">
+                    <section class="col-3 m-2 flex-shrink-1 border border-primary" >
+                        <h4 class="text-center yJersey text-warning">Tour de France</h4>
+                        <p>
+                            General classification (2007, 2009, <s>2010</s>)<br>
+                            Young rider classification (2007)<br>
+                            3 individual stages (2007, 2009)<br>
+                        </p>
+                    </section>
+                    <section class="col-3 m-2 flex-shrink-1 border border-primary">
+                        <h4 style="color: pink;" class="text-center pJersey">Giro d'Italia</h4>
+                        <p>
+                            General classification (2008, <s>2011</s>, 2015)<br>
+                        </p>
+                    </section>
+                    <section class="col-3 m-2 flex-shrink-1 border border-primary">
+                        <h4 class="text-center rJersey text-danger">Vuelta a España</h4>
+                        <p>
+                            General classification (2008, 2012, 2014)<br>
+                            Combination classification (2008, 2014)<br>
+                            7 individual stages (2008, 2012, 2014, 2017)<br>
+                        </p>
+                    </section>
+                    <section class="col-3 m-2 flex-shrink-1 border border-primary">
+                        <h4 class="text-center otherRaces">Stage races</h4>
+                        <p>
+                            Paris–Nice (2007, 2010)<br>
+                            Tirreno–Adriatico (2014)<br>
+                            Tour of the Basque Country (2008, 2009, 2014, 2016)<br>
+                            Vuelta a Burgos (2016)<br>
+                            Volta ao Algarve (2009, 2010)<br>
+                        </p>
+                    </section>
+                    <section class="col-3 m-2 flex-shrink-1 border border-primary">
+                        <h4 class="text-center otherRaces">One-day races and Classics</h4>
+                        <p>
+                            National Time Trial Championships (2009)<br>
+                            Milano–Torino (2012)<br>
+                        </p>
+                    </section>
+
+                    <section class="col-3 m-2 flex-shrink-1 border border-primary">
+                        <h4 class="text-center otherRaces">Other Races</h4>
+                        <p>
+                            Vélo d'Or (2007, 2008, 2009, 2014)
+                        </p>
+                    </section>
+
+                    <section class="col-3 m-2 flex-shrink-1 justify-content-center">
+                            <figure >
+                                <img class="rounded  border border-light"  title="Contador wins the Tour d'France ahead of Andy Schelck and Lance Armstrong"
+                                    class="imageload" id="secondgrandimg" width="200px" src="Alberto second tour.jfif"
+                                    alt="Grand tour photo" />
+                                <figcaption>Contador wins second Grand tour</figcaption>
+                            </figure>
+
+                    </section>
+                </div>
+            </section>
+
+            <h2 class="p-4 text-center" id="Allwins">Major results</h2>
+            <h2 class="text-center">El pistolero: The Man The Myth The Legend~Major Results</h2>
+            <section class="container d-flex" id="theMyth">
+                <div class="row p-2 justify-content-center">
+                    <section class="col-3 p-1 m-1 flex-shrink-1 border border-primary">
+                        <h5 class="text-center">2001</h5>
+                        <p>3rd Time trial, National Under-23 Road Championships</p>
+                    </section>
+                    <section class="col-3 p-1 m-1 flex-shrink-1 border border-primary">
+                        <h5 class="text-center">2002</h5>
+                        <p>
+                            1st Time trial, National Under-23 Road Championships<br>
+                            9th Overall Ruban Granitier Breton<br>
+                        </p>
+                    </section>
+                    <section class="col-3 p-1 m-1 flex-shrink-1 border border-primary">
+                        <h5 class="text-center">2003</h5>
+                        <p>
+                            1st Stage 8 (ITT) Tour de Pologne<br>
+                            9th Clásica a los Puertos de Guadarrama<br>
+                        </p>
+                    </section>
+                    <section class="col-3 p-1 m-1 flex-shrink-1 border border-primary">
+                        <h5 class="text-center">2004</h5>
+                        <p>
+                            1st Mountains classification Vuelta a Aragón<br>
+                            5th Overall Setmana Catalana de Ciclisme<br>
+                        </p>
+                    </section>
+                    <section class="col-3 p-1 m-1 flex-shrink-1 border border-primary">
+                        <h5 class="text-center">2005</h5>
+                        <p>
+                            1st Overall Setmana Catalana de Ciclisme<br>
+                            1st Combination classification<br>
+                            1st Stage 3<br>
+                            1st Stage 5 Tour Down Under<br>
+                            3rd Overall Tour of the Basque Country<br>
+                            1st Points classification<br>
+                            1st Stage 5b (ITT)<br>
+                            4th Overall Tour de Romandie<br>
+                            1st Stage 4<br>
+                            7th Klasika Primavera<br>
+                        </p>
+                    </section>
+                    <section class="col-3 p-1 m-1 flex-shrink-1 border border-primary">
+                        <h5 class="text-center">2006</h5>
+                        <p>
+                            1st Stage 8 Tour de Suisse<br>
+                            2nd Overall Tour de Romandie<br>
+                            1st Stage 3<br>
+                            4th Klasika Primavera<br>
+                            5th Overall Tour of the Basque Country<br>
+                            9th GP Miguel Induráin<br>
+                        </p>
+                    </section>
+                    <section class="col-3 p-1 m-1 flex-shrink-1 border border-primary">
+                        <h5 class="text-center">2007</h5>
+                        <p>
+                            1st Overall Tour de France<br>
+                            1st Young rider classification<br>
+                            1st Stage 14<br>
+                            1st Overall Paris–Nice<br>
+                            1st Young rider classification<br>
+                            1st Stages 4 & 7<br>
+                            1st Overall Vuelta a Castilla y León<br>
+                            1st Combination classification<br>
+                            1st Spanish rider classification<br>
+                            1st Stage 4<br>
+                            1st Stage 4 Volta a la Comunitat Valenciana<br>
+                            3rd Trofeo Sóller<br>
+                            6th Overall Critérium du Dauphiné Libéré<br>
+                        </p>
+                    </section>
+                    <section class="col-3 p-1 m-1 flex-shrink-1 border border-primary">
+                        <h5 class="text-center">2008</h5>
+                        <p>
+                            1st Overall Giro d'Italia<br>
+                            1st Overall Vuelta a España<br>
+                            1st Combination classification<br>
+                            1st Stages 13 & 14<br>
+                            1st Overall Tour of the Basque Country<br>
+                            1st Stages 1 & 6 (ITT)<br>
+                            1st Overall Vuelta a Castilla y León<br>
+                            1st Combination classification<br>
+                            1st Spanish rider classification<br>
+                            1st Stages 1 (ITT) & 4<br>
+                            2nd Clásica a los Puertos de Guadarrama<br>
+                            3rd Overall Vuelta a Murcia<br>
+                            4th Time trial, Summer Olympics<br>
+                            6th Overall Volta a la Comunitat Valenciana<br>
+                        </p>
+                    </section>
+                    <section class="col-3 p-1 m-1 flex-shrink-1 border border-primary">
+                        <h5 class="text-center">2009</h5>
+                        <p>
+                            1st UCI World Ranking<br>
+                            1st Time trial, National Road Championships<br>
+                            1st Overall Tour de France<br>
+                            1st Stages 4 (TTT), 15 & 18 (ITT)<br>
+                            1st Overall Tour of the Basque Country<br>
+                            1st Stages 3 & 6 (ITT)<br>
+                            1st Overall Volta ao Algarve<br>
+                            1st Stage 4 (ITT)<br>
+                            1st RaboRonde Heerlen<br>
+                            2nd Overall Vuelta a Castilla y León<br>
+                            3rd Overall Critérium du Dauphiné Libéré<br>
+                            4th Overall Paris–Nice<br>
+                            1st Stages 1 (ITT) & 6<br>
+                        </p>
+                    </section>
+                    <section class="col-3 p-1 m-1 flex-shrink-1 border border-primary">
+                        <h5 class="text-center">2010</h5>
+                        <p>
+                            1st Overall Paris–Nice<br>
+                            1st Stage 4<br>
+                            1st Overall Volta ao Algarve<br>
+                            1st Stage 3<br>
+                            1st Overall Vuelta a Castilla y León<br>
+                            1st Combination classification<br>
+                            1st Spanish rider classification<br>
+                            1st Stage 4 (ITT)<br>
+                            2nd Overall Critérium du Dauphiné<br>
+                            1st Points classification<br>
+                            1st Prologue & Stage 6<br>
+                            3rd La Flèche Wallonne<br>
+                            9th Liège–Bastogne–Liège<br>
+                    </section>
+                    <section class="col-3 p-1 m-1 flex-shrink-1 border border-primary bg bg-info">
+                        <h5 class="text-center text-white">Voided results: July 2010 to February 2012</h5>
+                        <p>
+                            Amidst the clenbuterol controversy, Contador earned his first win
+                            in the Vuelta a Murcia. He won the overall classification as well as two
+                            stage victories en route to his victory. Later in the month of March,
+                            Contador entered in the Volta a Catalunya, where he claimed a win on the third
+                            stage to Vallnord, maintaining his advantage until the end of the race.
+                            He also won the individual time trial of Vuelta a Castilla y León
+                        </p>
+                        <p>
+                            Contador started his season with still no verdict in the clenbuterol case.
+                            He finished second overall in the Tour de San Luis and he won both uphill finishes,
+                            only falling short in the time trial stage of the race. On <time>6<sup>th</sup> February</time>
+                            he was stripped
+                            of these early results, the 2010 Tour de France and 2011 Giro d'Italia wins and
+                            many other victories. He was also suspended until <time>5<sup>th</sup> August</time> .On
+                            <time>8<sup>th</sup> June</time> Contador rejoined Saxo
+                            Bank–Tinkoff Bank upon the completion of his ban, signing a
+                            contract that would keep him with the team until the end of the 2015 season
+                        </p>
+                    </section>
+                    <section class="col-3 p-0 m-1 flex-shrink-1 border border-primary">
+                        <figure >
+                            <img class="rounded col-12 flex-shrink-1" title="Contador on the Giro d'Italia podium after receiving the leader's pink Jersey"
+                                class="imageload" id="secondgrandimg" src="Alberto pink jersey.jfif"
+                                alt="Grand tour photo" />
+                            <figcaption>Contador in the Giro d'Italia pink Jersey</figcaption>
+                        </figure>
+                    </section>
+                    <section class="col-3 p-1 m-1 flex-shrink-1 border border-primary">
+                        <h5 class="text-center">2012</h5>
+                        <p>
+                            1st Overall Vuelta a España<br>
+                            1st Stage 17<br>
+                            Combativity award Overall<br>
+                            1st Milano–Torino<br>
+                            4th Overall Eneco Tour<br>
+                            9th Time trial, UCI Road World Championships<br>
+                            9th Giro di Lombardia
+                        </p>
+                    </section>
+                    <section class="col-3 p-1 m-1 flex-shrink-1 border border-primary">
+                        <h5 class="text-center">2013</h5>
+                        <p>
+                            2nd Overall Tour of Oman<br>
+                            3rd Overall Tirreno–Adriatico<br>
+                            1st Points classification<br>
+                            3rd Klasika Primavera<br>
+                            4th Overall Tour de France<br>
+                            4th Overall Tour de San Luis<br>
+                            1st Stage 6<br>
+                            5th Overall Tour of the Basque Country<br>
+                            5th Milano–Torino<br>
+                            10th Overall Critérium du Dauphiné
+                        </p>
+                    </section>
+                    <section class="col-3 p-1 m-1 flex-shrink-1 border border-primary">
+                        <h5 class="text-center">2014</h5>
+                        <p>
+                            1st Overall Vuelta a España<br>
+                            1st Combination classification<br>
+                            1st Stages 16 & 20<br>
+                            1st Overall Tirreno–Adriatico<br>
+                            1st Stages 4 & 5<br>
+                            1st Overall Tour of the Basque Country<br>
+                            1st Stage 1<br>
+                            2nd UCI World Tour<br>
+                            2nd Overall Volta ao Algarve<br>
+                            1st Stage 4<br>
+                            2nd Overall Volta a Catalunya<br>
+                            2nd Overall Critérium du Dauphiné<br>
+                            6th Milano–Torino
+                        </p>
+                    </section>
+                    <section class="col-3 p-1 m-1 flex-shrink-1 border border-primary">
+                        <h5 class="text-center">2015</h5>
+                        <p>
+                            1st Overall Giro d'Italia<br>
+                            1st Overall Route du Sud<br>
+                            1st Stage 3<br>
+                            2nd Overall Vuelta a Andalucía<br>
+                            1st Spanish rider classification<br>
+                            1st Stage 3<br>
+                            4th Overall Volta a Catalunya<br>
+                            5th Overall Tirreno–Adriatico<br>
+                            5th Overall Tour de France<br>
+                            7th UCI World Tour
+                        </p>
+                    </section>
+                    <section class="col-3 p-1 m-1 flex-shrink-1 border border-primary">
+                        <h5 class="text-center">2016</h5>
+                        <p>
+                            1st Overall Tour of the Basque Country<br>
+                            1st Stage 6 (ITT)<br>
+                            1st Overall Vuelta a Burgos<br>
+                            2nd Overall Paris–Nice<br>
+                            2nd Overall Volta a Catalunya<br>
+                            3rd Overall Volta ao Algarve<br>
+                            1st Stage 5<br>
+                            4th Overall Vuelta a España<br>
+                            Combativity award Stage 15 & Overall<br>
+                            5th UCI World Tour<br>
+                            5th Overall Critérium du Dauphiné<br>
+                            1st Prologue<br>
+                            5th Overall Abu Dhabi Tour
+                        </p>
+                    </section>
+                    <section class="col-3 p-1 m-1 flex-shrink-1 border border-primary">
+                        <h5 class="text-center">2017</h5>
+                        <p>
+                            2nd Overall Paris–Nice<br>
+                            2nd Overall Vuelta a Andalucía<br>
+                            2nd Overall Volta a Catalunya<br>
+                            2nd Overall Tour of the Basque Country<br>
+                            5th Overall Vuelta a España<br>
+                            1st Stages 17 & 20<br>
+                            Combativity award Overall<br>
+                            9th Overall Tour de France<br>
+                            Combativity award Stages 13 & 17<br>
+                            10th UCI World Tour
+                        </p>
+                    </section>
+                </div>
+            </section>
+            <section class="mx-0 text-center fw-bold  bg bg-primary" id="Gracias">
+                <p>Gracias Alberto!!!</p>
+                <!-- Video embedded from Youtube-->
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/Mvmmfqi3ofw?si=ykLUXx1YlBeygd6R"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen>
+                </iframe>
+
+            </section>
+        </main>
+        <footer class="text-center bg bg-primary">
+            &copy; 2024. All rights reserved
+        </footer>
+    </div>
+</body>
+
+</html>
